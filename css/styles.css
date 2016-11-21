@@ -1,0 +1,36 @@
+.navbar-chris{
+	background-color: #000000;
+	border-color: #000000;
+	text-transform: uppercase;
+}
+
+.navbar-chris .navbar-toggle {
+  border-color: #000000;
+}
+
+.navbar-chris .navbar-toggle:hover,
+.navbar-chris .navbar-toggle:focus {
+  background-color: #000000;
+}
+
+.navbar-chris .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+.dropdown-menu > li > a {
+  padding-bottom: 15px;
+  color: #fff;
+}
+
+.navbar-chris .navbar-nav > li > a,
+.navbar-header > a {
+  color: #fff;
+  background-color: transparent;
+}
+
+.navbar-chris .navbar-nav > li > a:hover,
+.navbar-chris .navbar-nav > li > a:focus {
+  color: #f13124;
+  background-color: transparent;
+}
+

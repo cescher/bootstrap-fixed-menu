@@ -1,0 +1,11 @@
+Review
+
+Here's what happens when a browser loads a website:
+
+Fetch the HTML page (e.g. index.html)
+Begin parsing the HTML
+The parser encounters a <script> tag referencing an external script file.
+The browser requests the script file. Meanwhile, the parser blocks and stops parsing the other HTML on your page.
+After some time the script is downloaded and subsequently executed.
+The parser continues parsing the rest of the HTML document.
+Step 4 causes a bad user experience. Your website basically stops loading until you've downloaded all scripts. If there's one thing that users hate it's waiting for a website to load.
